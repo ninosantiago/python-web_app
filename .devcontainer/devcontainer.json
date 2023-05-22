@@ -6,11 +6,13 @@
         "vscode": {
             "extensions": [
 				"dbaeumer.vscode-eslint",
-				"ms-python.python"
+				"ms-python.python",
+				"GitHub.copilot"
 			]
         }
     },
     "forwardPorts": [
         3000
-    ]
+    ],
+    "postCreateCommand": "pip install -r requirements.txt"
 }
